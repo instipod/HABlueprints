@@ -35,10 +35,9 @@ blueprint:
       description: Set this to be the state you want the condition in when the automation activates.
       default: "on"
       selector:
-        select:
-          options:
-            - "on"
-            - "off"
+        options:
+          - "on"
+          - "off"
 
 # If motion is detected within the delay,
 # we restart the script.
