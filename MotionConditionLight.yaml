@@ -14,7 +14,6 @@ blueprint:
       name: Condition
       selector:
         entity:
-          domain: input_boolean
     light_target:
       name: Light
       selector:
@@ -35,9 +34,7 @@ blueprint:
       description: Set this to be the state you want the condition in when the automation activates.
       default: "on"
       selector:
-        options:
-          - "on"
-          - "off"
+        text:
 
 # If motion is detected within the delay,
 # we restart the script.
