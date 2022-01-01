@@ -50,7 +50,7 @@ trigger:
 condition:
   - condition: state
     entity_id: !input condition_entity
-    below: !input condition_value
+    state: !input condition_value
 
 action:
   - alias: "Turn on the light"
