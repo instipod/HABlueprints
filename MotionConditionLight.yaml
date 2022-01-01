@@ -37,8 +37,8 @@ blueprint:
       selector:
         select:
           options:
-            - on
-            - off
+            - "on"
+            - "off"
 
 # If motion is detected within the delay,
 # we restart the script.
